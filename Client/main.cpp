@@ -12,8 +12,8 @@ using namespace std;
 SOCKET skt;
 HANDLE pipeInWrite;
 
-final std::string HOST = "1.1.1.1";
-final int PORT = 9999;
+static std::string HOST = "1.1.1.1";
+static int PORT = 9999;
 
 bool connected = false;
 bool active = false;
